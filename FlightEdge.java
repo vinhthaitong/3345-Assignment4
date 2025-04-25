@@ -54,15 +54,18 @@ public class FlightEdge{
         }
     }
 
-    // Helper method to find a node in the graph
+    // Helper method to find a source node in the ArrayList
     private Node findNodeInGraph(String data) {
         for (int i = 0; i < graph.aList.size(); i++) {
-            if (!graph.aList.get(i).isEmpty() &&
-                    graph.aList.get(i).getFirst().data.equals(data)) {
+            if (!graph.aList.get(i).isEmpty() && graph.aList.get(i).getFirst().data.equals(data)) {
                 return graph.aList.get(i).getFirst();
             }
         }
         return null;
+    }
+
+    public void searchDFS(Node source, Node destination) {
+        graph.DFS(source, destination);
     }
 
 

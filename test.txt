@@ -1,0 +1,13 @@
+12
+Dallas|Austin|109|53
+Austin|Dallas|109|53
+Dallas|Houston|119|57
+Houston|Dallas|119|57
+Austin|Houston|95|39
+Houston|Austin|95|39
+Dallas|Chicago|189|126
+Chicago|Dallas|189|126
+Austin|Chicago|219|147
+Chicago|Austin|219|147
+Houston|Chicago|199|141
+Chicago|Houston|199|141

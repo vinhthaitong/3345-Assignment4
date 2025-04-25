@@ -8,7 +8,7 @@ public class main {
         
         try {
             // Properly initialize Scanner with a File object
-            Scanner input = new Scanner(new File("FlightData.txt"));
+            Scanner input = new Scanner(new File("test.txt"));
             
             // Read the data from the file
             while (input.hasNextLine()) {
@@ -24,8 +24,6 @@ public class main {
                     int cost = Integer.parseInt(data[2].trim());
                     int time = Integer.parseInt(data[3].trim());
                     flightEdge.setArray(source, destination, cost, time);
-                } else {
-                    System.out.println("Skipping invalid line: " + line);
                 }
             }
             
@@ -40,5 +38,10 @@ public class main {
 
         flightEdge.setEdge();
         flightEdge.displayEdge();
+
+        Graph graph = new Graph();
+        Node dallas = new Node("Dallas");
+        Node austin = new Node("Austin");
+        flightEdge.searchDFS(dallas, austin);
     }
 }
