@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         // Create a new graph
         Graph graph = new Graph();
-        
+
         // First, build the graph from flight data
         try {
             // Read flight connections from a file
@@ -23,17 +23,17 @@ public class Main {
                     String destination = data[1].trim();
                     int cost = Integer.parseInt(data[2].trim());
                     int time = Integer.parseInt(data[3].trim());
-                    
+
                     // Add this connection to the graph
                     graph.addConnection(source, destination, cost, time);
                 }
             }
             // Close the scanner to prevent resource leaks
             input.close();
-            
+
             System.out.println("Graph built successfully with the following nodes:");
             graph.print();
-            
+
         } catch (FileNotFoundException e) {
             System.err.println("Flight data file not found: " + e.getMessage());
             return; // Exit if we can't build the graph
@@ -42,7 +42,7 @@ public class Main {
             e.printStackTrace();
             return; // Exit if we can't build the graph
         }
-        
+
         // Now read source-destination pairs and perform DFS
         try {
             // Properly initialize Scanner with a File object
@@ -65,7 +65,7 @@ public class Main {
                     else{
                         System.out.println("\nFlight " + flightCount++ + ": " + source + ", " + destination + " (Time)");
                     }
-                    
+
                     graph.DFS(source, destination, option);
                 }
             }
