@@ -1,3 +1,11 @@
-2
+10
+Dallas|Seattle|T
+Seattle|Dallas|C
+Austin|Chicago|T
+Miami|Phoenix|C
+Houston|Los Angeles|T
+Atlanta|New York|C
 Dallas|Houston|T
-Chicago|Dallas|C
+Chicago|Miami|C
+Phoenix|Austin|T
+Los Angeles|Atlanta|C

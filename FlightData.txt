@@ -1,51 +1,51 @@
 50
-Phoenix|Austin|360|168
-Los Angeles|Miami|238|80
-Miami|Houston|364|103
-Miami|Seattle|242|299
-Seattle|New York|228|325
-Chicago|Los Angeles|215|123
-Austin|Los Angeles|177|313
-New York|Austin|209|91
-Phoenix|Atlanta|113|156
-Dallas|Phoenix|226|214
-Miami|Atlanta|136|64
-Houston|Austin|188|75
-Miami|Dallas|395|72
-Houston|New York|161|166
-New York|Miami|283|80
-Los Angeles|Houston|191|118
-Chicago|Phoenix|147|190
-Los Angeles|Atlanta|226|76
-Los Angeles|Austin|177|313
-Miami|Phoenix|202|110
-Seattle|Dallas|287|235
-Dallas|Houston|148|314
-Chicago|Dallas|146|118
-Seattle|Phoenix|271|147
-Phoenix|Chicago|147|190
-Austin|Dallas|163|175
-Phoenix|Los Angeles|349|94
-Seattle|Austin|377|315
-Seattle|Miami|242|299
-Houston|Los Angeles|112|275
-Los Angeles|Phoenix|322|226
-Houston|New York|346|131
-New York|Atlanta|295|177
-Miami|Austin|395|279
-Los Angeles|Dallas|284|182
-Houston|Atlanta|373|45
-Atlanta|Dallas|350|292
-Austin|Atlanta|372|190
-Miami|New York|283|80
-Phoenix|Seattle|271|147
-New York|Chicago|294|225
-Dallas|New York|173|229
-Atlanta|Miami|136|64
-Miami|Seattle|224|339
-Atlanta|Seattle|118|157
-Austin|New York|209|91
-Seattle|Chicago|292|274
-Houston|Miami|364|103
-Houston|Phoenix|380|201
-Chicago|Atlanta|281|122
+Atlanta|Phoenix|300|117
+Phoenix|Atlanta|100|190
+Austin|Denver|308|252
+Denver|Austin|150|62
+Boston|San Francisco|399|354
+San Francisco|Boston|113|233
+New York|Chicago|390|209
+Chicago|New York|372|182
+Dallas|Seattle|348|160
+Seattle|Dallas|108|198
+Houston|Los Angeles|93|79
+Los Angeles|Houston|145|347
+Miami|Minneapolis|364|56
+Minneapolis|Miami|191|248
+Los Angeles|Minneapolis|239|352
+Minneapolis|Los Angeles|224|119
+Houston|Miami|111|213
+Miami|Houston|250|224
+Dallas|New York|160|233
+New York|Dallas|282|275
+Chicago|Seattle|356|237
+Seattle|Chicago|394|326
+Denver|San Francisco|142|357
+San Francisco|Denver|349|178
+Austin|Boston|310|161
+Boston|Austin|244|263
+Atlanta|Boston|222|306
+Boston|Atlanta|245|320
+Austin|Phoenix|263|45
+Phoenix|Austin|302|336
+Phoenix|San Francisco|251|50
+San Francisco|Phoenix|282|355
+Atlanta|Denver|391|108
+Denver|Atlanta|120|210
+Dallas|Chicago|328|220
+Chicago|Dallas|270|351
+New York|Seattle|232|290
+Seattle|New York|101|341
+Los Angeles|Miami|121|50
+Miami|Los Angeles|279|168
+Houston|Minneapolis|323|192
+Minneapolis|Houston|393|347
+Houston|Seattle|253|130
+Seattle|Houston|276|134
+New York|Minneapolis|250|229
+Minneapolis|New York|394|175
+Chicago|Miami|243|233
+Miami|Chicago|143|53
+Dallas|Los Angeles|381|107
+Los Angeles|Dallas|248|296
