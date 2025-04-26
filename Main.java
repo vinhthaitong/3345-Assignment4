@@ -9,7 +9,7 @@ public class Main {
         // First, build the graph from flight data
         try {
             // Read flight connections from a file
-            File flightDataFile = new File("test.txt");
+            File flightDataFile = new File("FlightData.txt");
             Scanner input = new Scanner(flightDataFile);
 
             // Read the connection data from the file
@@ -48,7 +48,8 @@ public class Main {
             // Properly initialize Scanner with a File object
             File inputFile = new File("Input.txt");
             Scanner userInput = new Scanner(inputFile);
-            
+            int flightCount = 1;
+
             while (userInput.hasNextLine()) {
                 String line = userInput.nextLine();
                 // Split the line into source and destination
@@ -56,12 +57,16 @@ public class Main {
                 if (data.length >= 2) {
                     String source = data[0].trim();
                     String destination = data[1].trim();
+                    String option = data[2].trim();
+
+                    if(option.equals("C")){
+                        System.out.println("\nFlight " + flightCount++ + ": " + source + ", " + destination + " (Cost)");
+                    }
+                    else{
+                        System.out.println("\nFlight " + flightCount++ + ": " + source + ", " + destination + " (Time)");
+                    }
                     
-                    System.out.println("\n======================================");
-                    System.out.println("Finding paths from " + source + " to " + destination + ":");
-                    System.out.println("======================================");
-                    
-                    graph.DFS(source, destination);
+                    graph.DFS(source, destination, option);
                 }
             }
             // Close the scanner to prevent resource leaks
