@@ -1,4 +1,4 @@
-# Flight Path Finder (CS&nbsp;3345 – Assignment 4)
+# Flight Path Finder 
 
 > Command‑line Java tool that enumerates every possible flight path between two U.S. cities and highlights the cheapest or fastest options.
 
